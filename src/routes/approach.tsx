@@ -26,7 +26,7 @@ const SECTIONS = [
   },
   {
     title: "Family Systems",
-    body: "Psychodynamic therapy is briefer and less intensive than psychoanalysis and also focuses on the relationship between the therapist and the client, as a way to learn about how the client relates to everyone in their life.",
+    body: "Psychodynamic therapy is briefer and less intensive than psychoanalysis and also focuses on the relationship between the therapist and the client, as a way to learn about how the client relates to everyone in their life.\n",
   },
   {
     title: "Psychoanalytic Foundations",
