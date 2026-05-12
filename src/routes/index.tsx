@@ -59,7 +59,11 @@ function HomePage() {
                 Over 35 years helping adolescents and adults navigate relationships, anxiety, and life's deeper patterns.
               </p>
               <div className="mt-9 flex flex-wrap gap-3">
-                <Button asChild size="lg" className="bg-cta hover:bg-cta/90 text-cta-foreground rounded-full px-7">
+                <Button
+                  asChild
+                  size="lg"
+                  className="hero-cta-calm-glow bg-cta hover:bg-cta/90 text-cta-foreground rounded-full px-7"
+                >
                   <Link to="/contact">Schedule a Free 15-Minute Consultation</Link>
                 </Button>
                 <Button asChild size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground rounded-full px-7">

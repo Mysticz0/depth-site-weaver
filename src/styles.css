@@ -130,6 +130,33 @@
   }
 }
 
+@keyframes hero-cta-calm-glow {
+  0%,
+  100% {
+    box-shadow:
+      0 1px 3px color-mix(in oklab, var(--foreground) 8%, transparent),
+      0 0 8px 1px color-mix(in oklab, var(--primary) 16%, transparent),
+      0 0 14px 3px color-mix(in oklab, var(--cta) 12%, transparent);
+  }
+  50% {
+    box-shadow:
+      0 1px 4px color-mix(in oklab, var(--foreground) 10%, transparent),
+      0 0 12px 3px color-mix(in oklab, var(--primary) 42%, transparent),
+      0 0 22px 6px color-mix(in oklab, var(--cta) 32%, transparent),
+      0 0 30px 8px color-mix(in oklab, var(--primary) 16%, transparent);
+  }
+}
+
+.hero-cta-calm-glow {
+  animation: hero-cta-calm-glow 11s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-cta-calm-glow {
+    animation: none;
+  }
+}
+
 @keyframes fade-up {
   from { opacity: 0; transform: translateY(16px); }
   to { opacity: 1; transform: translateY(0); }
