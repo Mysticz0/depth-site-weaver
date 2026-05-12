@@ -59,7 +59,7 @@ function HomePage() {
                 Over 35 years helping adolescents and adults navigate relationships, anxiety, and life's deeper patterns.
               </p>
               <div className="mt-9 flex flex-wrap gap-3">
-                <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground rounded-full px-7">
+                <Button asChild size="lg" className="bg-cta hover:bg-cta/90 text-cta-foreground rounded-full px-7">
                   <Link to="/contact">Schedule a Free 15-Minute Consultation</Link>
                 </Button>
                 <Button asChild size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground rounded-full px-7">
@@ -176,7 +176,7 @@ function HomePage() {
         <MandalaMark size={520} strokeWidth={0.3} className="absolute -left-32 -bottom-32 text-cream/10 pointer-events-none" />
         <MandalaMark size={360} strokeWidth={0.3} className="absolute -right-20 -top-20 text-cream/10 pointer-events-none" />
         <FadeIn className="relative mx-auto max-w-4xl px-4 py-24 text-center">
-          <span className="font-serif text-7xl text-accent leading-none">"</span>
+          <span className="font-serif text-7xl text-cream leading-none">"</span>
           <blockquote className="font-serif italic text-2xl md:text-3xl leading-relaxed -mt-6">
             In psychotherapy, we identify the repetitive patterns that interfere with the initiation and maintenance of intimate relationships — and slowly, together, we make room for something different.
           </blockquote>

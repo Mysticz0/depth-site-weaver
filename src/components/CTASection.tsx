@@ -16,7 +16,7 @@ export function CTASection() {
           Call or email for a free 15-minute consultation. There's no pressure to commit — just a conversation about what you're looking for.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-3">
-          <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground rounded-full">
+          <Button asChild size="lg" className="bg-cta hover:bg-cta/90 text-cta-foreground rounded-full">
             <a href="tel:+16463511746"><Phone className="mr-1" /> (646) 351-1746</a>
           </Button>
           <Button asChild size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground rounded-full">

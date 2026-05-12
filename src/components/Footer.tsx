@@ -1,24 +1,11 @@
 import { Link } from "@tanstack/react-router";
-import { useState, type FormEvent } from "react";
 import { MandalaMark } from "./MandalaMark";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
-import { toast } from "sonner";
 import { ShieldCheck } from "lucide-react";
 
 export function Footer() {
-  const [email, setEmail] = useState("");
-
-  function onSubscribe(e: FormEvent) {
-    e.preventDefault();
-    console.log("[newsletter] subscribe:", email);
-    toast.success("Thank you — you're subscribed.");
-    setEmail("");
-  }
-
   return (
     <footer className="bg-[var(--utility-bar)] text-cream/90 mt-24">
-      <div className="mx-auto max-w-7xl px-4 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="mx-auto max-w-7xl px-4 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         <div>
           <div className="flex items-center gap-3 text-cream">
             <MandalaMark size={36} strokeWidth={0.9} />
@@ -45,24 +32,6 @@ export function Footer() {
             <div><a href="tel:+16463511746" className="hover:text-accent">(646) 351-1746</a></div>
             <div><a href="mailto:kfeinerpsyd@example.com" className="hover:text-accent">kfeinerpsyd@example.com</a></div>
           </address>
-        </div>
-
-        <div>
-          <h3 className="font-serif text-cream text-base mb-3">Newsletter</h3>
-          <p className="text-sm text-cream/70 mb-3">Occasional reflections on therapy and relationships. No spam.</p>
-          <form onSubmit={onSubscribe} className="flex gap-2">
-            <Input
-              type="email"
-              required
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="your@email.com"
-              className="bg-cream/10 border-cream/20 text-cream placeholder:text-cream/40"
-            />
-            <Button type="submit" className="bg-accent hover:bg-accent/90 text-accent-foreground">
-              Subscribe
-            </Button>
-          </form>
         </div>
       </div>
 

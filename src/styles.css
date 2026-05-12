@@ -25,6 +25,8 @@
   --color-muted-foreground: var(--muted-foreground);
   --color-accent: var(--accent);
   --color-accent-foreground: var(--accent-foreground);
+  --color-cta: var(--cta);
+  --color-cta-foreground: var(--cta-foreground);
   --color-destructive: var(--destructive);
   --color-destructive-foreground: var(--destructive-foreground);
   --color-border: var(--border);
@@ -60,9 +62,12 @@
   /* Warm gray #7A736B */
   --muted: oklch(0.93 0.012 80);
   --muted-foreground: oklch(0.52 0.012 70);
-  /* Terracotta #C97B5C */
-  --accent: oklch(0.66 0.115 45);
+  /* Deep brown #402b2c */
+  --accent: oklch(0.315 0.031 16);
   --accent-foreground: oklch(0.985 0.008 80);
+  /* Solid CTA buttons #193937 */
+  --cta: oklch(0.32 0.038 190);
+  --cta-foreground: oklch(0.985 0.008 80);
   --destructive: oklch(0.55 0.2 25);
   --destructive-foreground: oklch(0.985 0.008 80);
   --border: oklch(0.88 0.014 80);
@@ -85,8 +90,10 @@
   --secondary-foreground: oklch(0.96 0.012 80);
   --muted: oklch(0.32 0.02 200);
   --muted-foreground: oklch(0.72 0.014 80);
-  --accent: oklch(0.7 0.11 45);
-  --accent-foreground: oklch(0.22 0.012 200);
+  --accent: oklch(0.315 0.031 16);
+  --accent-foreground: oklch(0.96 0.012 80);
+  --cta: oklch(0.32 0.038 190);
+  --cta-foreground: oklch(0.96 0.012 80);
   --border: oklch(1 0 0 / 12%);
   --input: oklch(1 0 0 / 15%);
   --ring: oklch(0.7 0.06 190);

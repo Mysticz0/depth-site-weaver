@@ -117,7 +117,7 @@ function ContactPage() {
                 <Lock className="h-3.5 w-3.5 mt-0.5 shrink-0" />
                 Please do not include sensitive clinical information in this form. Email is not a fully secure channel.
               </p>
-              <Button type="submit" size="lg" className="w-full bg-accent hover:bg-accent/90 text-accent-foreground rounded-full">
+              <Button type="submit" size="lg" className="w-full bg-cta hover:bg-cta/90 text-cta-foreground rounded-full">
                 Send message
               </Button>
             </form>

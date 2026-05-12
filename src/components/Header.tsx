@@ -66,7 +66,7 @@ export function Header() {
           </nav>
 
           <div className="hidden md:block">
-            <Button asChild className="bg-accent hover:bg-accent/90 text-accent-foreground rounded-full px-5">
+            <Button asChild className="bg-cta hover:bg-cta/90 text-cta-foreground rounded-full px-5">
               <Link to="/contact">Request a Consultation</Link>
             </Button>
           </div>
@@ -90,7 +90,7 @@ export function Header() {
                     {n.label}
                   </Link>
                 ))}
-                <Button asChild className="mt-4 bg-accent hover:bg-accent/90 text-accent-foreground">
+                <Button asChild className="mt-4 bg-cta hover:bg-cta/90 text-cta-foreground">
                   <Link to="/contact" onClick={() => setOpen(false)}>Request a Consultation</Link>
                 </Button>
               </nav>
