@@ -26,7 +26,7 @@ const SECTIONS = [
   },
   {
     title: "Family Systems",
-    body: "We are, all of us, shaped by the families we came from. Patterns of closeness and distance, the way conflict is handled or avoided, what could and could not be spoken about — these things travel across generations. Understanding the system you grew up in is often a precondition for changing the one you are in now.",
+    body: "Psychodynamic therapy is briefer and less intensive than psychoanalysis and also focuses on the relationship between the therapist and the client, as a way to learn about how the client relates to everyone in their life.\n",
   },
   {
     title: "Psychoanalytic Foundations",
