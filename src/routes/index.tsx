@@ -160,9 +160,12 @@ function HomePage() {
             <h2 className="font-serif text-4xl md:text-5xl text-primary-deep">Specialties</h2>
           </FadeIn>
           <FadeIn>
-            <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+            <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
               {SPECIALTIES.map((s) => (
-                <li key={s} className="bg-card border border-border/60 rounded-xl px-4 py-4 text-sm text-foreground/80 hover:border-accent hover:text-primary-deep transition-colors">
+                <li
+                  key={s}
+                  className="rounded-2xl border border-border/60 bg-card px-4 py-4 text-sm text-foreground/80 shadow-card transition-shadow duration-500 hover:shadow-soft"
+                >
                   {s}
                 </li>
               ))}
