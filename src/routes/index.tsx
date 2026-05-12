@@ -11,9 +11,9 @@ import roomImg from "@/assets/who-i-work-with.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Kenneth Feiner, PsyD — Manhattan Psychotherapy" },
+      { title: "Kenneth Feiner, PsyD | Manhattan Psychotherapy" },
       { name: "description", content: "Depth-oriented psychotherapy in Manhattan for adolescents, adults, couples, and families. Free 15-minute consultation." },
-      { property: "og:title", content: "Kenneth Feiner, PsyD — Manhattan Psychotherapy" },
+      { property: "og:title", content: "Kenneth Feiner, PsyD | Manhattan Psychotherapy" },
       { property: "og:description", content: "Over 35 years helping people navigate relationships, anxiety, and life's deeper patterns." },
     ],
   }),
@@ -178,10 +178,10 @@ function HomePage() {
         <FadeIn className="relative mx-auto max-w-4xl px-4 py-24 text-center">
           <span className="font-serif text-7xl text-cream leading-none">"</span>
           <blockquote className="font-serif italic text-2xl md:text-3xl leading-relaxed -mt-6">
-            In psychotherapy, we identify the repetitive patterns that interfere with the initiation and maintenance of intimate relationships — and slowly, together, we make room for something different.
+            In psychotherapy, we identify the repetitive patterns that interfere with the initiation and maintenance of intimate relationships, and slowly, together, we make room for something different.
           </blockquote>
           <cite className="not-italic block mt-8 text-sm tracking-[0.2em] uppercase text-cream/70">
-            — Kenneth Feiner, PsyD
+            Kenneth Feiner, PsyD
           </cite>
         </FadeIn>
       </section>

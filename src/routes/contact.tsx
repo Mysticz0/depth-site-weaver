@@ -11,7 +11,7 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Kenneth Feiner, PsyD | Manhattan Office" },
+      { title: "Contact | Kenneth Feiner, PsyD | Manhattan Office" },
       { name: "description", content: "Contact Dr. Kenneth Feiner for a free 15-minute consultation. 220 East 26th Street, NYC. (646) 351-1746. In-person and online sessions." },
       { property: "og:title", content: "Contact Dr. Kenneth Feiner, PsyD" },
       { property: "og:description", content: "Free 15-minute consultation. Manhattan office, online sessions throughout NY State." },
@@ -30,7 +30,7 @@ function ContactPage() {
   function onSubmit(e: FormEvent) {
     e.preventDefault();
     console.log("[contact] submission:", form);
-    toast.success("Thank you — your message has been received. Dr. Feiner will be in touch.");
+    toast.success("Thank you. Your message has been received. Dr. Feiner will be in touch.");
     setForm({ name: "", email: "", phone: "", time: "", message: "" });
   }
 
@@ -43,7 +43,7 @@ function ContactPage() {
             Let's begin with a conversation.
           </h1>
           <p className="mt-6 text-lg text-foreground/75">
-            The best first step is a free 15-minute phone call. Use any of the methods below — whichever feels easiest.
+            The best first step is a free 15-minute phone call. Use any of the methods below, whichever feels easiest.
           </p>
         </FadeIn>
       </section>

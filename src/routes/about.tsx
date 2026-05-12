@@ -8,7 +8,7 @@ import headshot from "@/assets/headshot.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Dr. Kenneth Feiner — Clinical Psychologist NYC" },
+      { title: "About Dr. Kenneth Feiner | Clinical Psychologist NYC" },
       { name: "description", content: "Kenneth Feiner, PsyD has practiced psychoanalytically-oriented psychotherapy in Manhattan for over 35 years. PsyD, Yeshiva University." },
       { property: "og:title", content: "About Dr. Kenneth Feiner" },
       { property: "og:description", content: "PsyD, Yeshiva University. Psychoanalytic training at NYU. 35+ years of practice in Manhattan." },
@@ -73,7 +73,7 @@ function AboutPage() {
               <h2 className="font-serif text-3xl md:text-4xl text-primary-deep">My Approach</h2>
               <div className="mt-6 space-y-5 text-foreground/80 text-lg">
                 <p>
-                  My orientation is psychodynamic, relational, and family-systems informed. I believe that lasting change rarely comes from managing symptoms in isolation. It comes from understanding the patterns — often very old ones — that shape how we relate to ourselves and to the people closest to us.
+                  My orientation is psychodynamic, relational, and family-systems informed. I believe that lasting change rarely comes from managing symptoms in isolation. It comes from understanding the patterns, often very old ones, that shape how we relate to ourselves and to the people closest to us.
                 </p>
                 <p>
                   Sessions are conversational and unhurried. We pay attention to what comes up between us, to what repeats across your relationships, and to the parts of your experience that have been hardest to put into words. Over time, that kind of careful, sustained attention tends to loosen things that nothing else has reached.
