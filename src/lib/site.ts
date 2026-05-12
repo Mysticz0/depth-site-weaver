@@ -1,0 +1,18 @@
+export const SPECIALTIES = [
+  "Relationship Issues",
+  "Anxiety",
+  "Depression",
+  "Narcissistic Personality (NPD)",
+  "Suicidal Ideation",
+  "ADHD",
+  "Adolescent Concerns",
+  "Borderline Personality (BPD)",
+  "Trauma & PTSD",
+  "OCD",
+  "Grief",
+  "Life Transitions",
+  "Infidelity",
+  "Self-Esteem",
+  "Family Conflict",
+  "Personality Disorders",
+];
