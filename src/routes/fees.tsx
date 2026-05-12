@@ -7,7 +7,7 @@ import { Info } from "lucide-react";
 export const Route = createFileRoute("/fees")({
   head: () => ({
     meta: [
-      { title: "Fees & Insurance — Kenneth Feiner, PsyD" },
+      { title: "Fees & Insurance | Kenneth Feiner, PsyD" },
       { name: "description", content: "Session fees, sliding scale availability, payment methods, and out-of-network insurance information for Dr. Feiner's Manhattan practice." },
       { property: "og:title", content: "Fees & Insurance" },
       { property: "og:description", content: "Out-of-network practice with superbills provided. Sliding scale available." },
@@ -33,7 +33,7 @@ const FAQS = [
   },
   {
     q: "What is a superbill?",
-    a: "A superbill is an itemized receipt with the diagnostic and procedural codes your insurance company needs to process an out-of-network claim. I provide one each month — you submit it to your insurer for reimbursement directly to you.",
+    a: "A superbill is an itemized receipt with the diagnostic and procedural codes your insurance company needs to process an out-of-network claim. I provide one each month; you submit it to your insurer for reimbursement directly to you.",
   },
   {
     q: "Is a sliding scale available?",
@@ -72,7 +72,7 @@ function FeesPage() {
               </table>
             </div>
             <p className="mt-4 text-sm text-muted-foreground text-center">
-              <strong className="text-foreground/85">Sliding scale available</strong> — please ask if you may be eligible.
+              <strong className="text-foreground/85">Sliding scale available</strong>. Please ask if you may be eligible.
             </p>
           </FadeIn>
 

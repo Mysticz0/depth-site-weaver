@@ -7,9 +7,9 @@ import { Check } from "lucide-react";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services — Individual, Couples & Family Therapy NYC" },
+      { title: "Services | Individual, Couples & Family Therapy NYC" },
       { name: "description", content: "Individual, couples, family, and adolescent psychotherapy in Manhattan. Consultation available for complex cases including NPD, BPD, and trauma." },
-      { property: "og:title", content: "Services — Kenneth Feiner, PsyD" },
+      { property: "og:title", content: "Services | Kenneth Feiner, PsyD" },
       { property: "og:description", content: "Psychodynamic individual, couples, family, and adolescent therapy in Manhattan." },
     ],
   }),
@@ -24,7 +24,7 @@ const SERVICES = [
   },
   {
     title: "Couples Therapy",
-    body: "Collaborative sessions for partners moving through conflict, disconnection, infidelity, or major transitions. Focus is on the patterns the two of you create together — not on assigning blame.",
+    body: "Collaborative sessions for partners moving through conflict, disconnection, infidelity, or major transitions. Focus is on the patterns the two of you create together, not on assigning blame.",
     bullets: ["Communication breakdown", "Recovery after infidelity", "Sexual & emotional intimacy", "Parenting & life-stage decisions"],
   },
   {

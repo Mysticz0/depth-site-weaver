@@ -6,9 +6,9 @@ import { CTASection } from "@/components/CTASection";
 export const Route = createFileRoute("/approach")({
   head: () => ({
     meta: [
-      { title: "Approach — Psychodynamic & Relational Therapy NYC" },
+      { title: "Approach | Psychodynamic & Relational Therapy NYC" },
       { name: "description", content: "Psychodynamic, relational, and family-systems therapy in Manhattan. Lasting change comes from understanding patterns, not just managing symptoms." },
-      { property: "og:title", content: "My Approach — Kenneth Feiner, PsyD" },
+      { property: "og:title", content: "My Approach | Kenneth Feiner, PsyD" },
       { property: "og:description", content: "An essay on psychodynamic, relational, and family-systems work." },
     ],
   }),
@@ -18,11 +18,11 @@ export const Route = createFileRoute("/approach")({
 const SECTIONS = [
   {
     title: "Psychodynamic Therapy",
-    body: "Psychodynamic therapy assumes that much of what shapes our lives — our anxieties, our choices in love and work, the moments we surprise ourselves — happens outside of conscious awareness. The work is to make some of that visible. Not as a clever interpretation imposed from above, but as something we discover together, slowly, through the texture of conversation.",
+    body: "Psychodynamic therapy assumes that much of what shapes our lives, our anxieties, our choices in love and work, the moments we surprise ourselves, happens outside of conscious awareness. The work is to make some of that visible. Not as a clever interpretation imposed from above, but as something we discover together, slowly, through the texture of conversation.",
   },
   {
     title: "Relational Therapy",
-    body: "What happens between us in the room is itself part of the work. The way you and I come to know each other tends to mirror, in small and revealing ways, the patterns that play out in your other relationships. When we can notice that — gently, and with care — it becomes one of the most useful instruments we have.",
+    body: "What happens between us in the room is itself part of the work. The way you and I come to know each other tends to mirror, in small and revealing ways, the patterns that play out in your other relationships. When we can notice that, gently and with care, it becomes one of the most useful instruments we have.",
   },
   {
     title: "Family Systems",
@@ -34,7 +34,7 @@ const SECTIONS = [
   },
   {
     title: "What to Expect",
-    body: "A first session is mostly listening — to what brings you in, what you've tried, and what you're hoping might be different. Sessions are 50 minutes. Most patients come once or twice a week. There is no fixed length to the work. People leave when something has shifted, when the original distress has loosened, and when they feel ready.",
+    body: "A first session is mostly listening: what brings you in, what you've tried, and what you're hoping might be different. Sessions are 50 minutes. Most patients come once or twice a week. There is no fixed length to the work. People leave when something has shifted, when the original distress has loosened, and when they feel ready.",
   },
 ];
 
@@ -45,7 +45,7 @@ function ApproachPage() {
         <FadeIn className="mx-auto max-w-3xl px-4 text-center">
           <p className="text-sm tracking-[0.25em] uppercase text-accent mb-5">My Approach</p>
           <h1 className="font-serif text-5xl md:text-6xl text-primary-deep leading-[1.05]">
-            Lasting change comes from understanding patterns — not from managing symptoms.
+            Lasting change comes from understanding patterns, not from managing symptoms.
           </h1>
           <p className="mt-6 text-lg text-foreground/75">
             A few notes on the way I work, and what brought me to it.
@@ -72,7 +72,7 @@ function ApproachPage() {
       <section className="bg-primary text-cream py-20">
         <FadeIn className="mx-auto max-w-3xl px-4 text-center">
           <blockquote className="font-serif italic text-2xl md:text-3xl leading-relaxed">
-            "We don't fix the past. We change our relationship to it — and that, in turn, changes what becomes possible."
+            "We don't fix the past. We change our relationship to it, and that, in turn, changes what becomes possible."
           </blockquote>
         </FadeIn>
       </section>

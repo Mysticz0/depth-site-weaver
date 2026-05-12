@@ -30,7 +30,7 @@ const JSON_LD = {
     },
     {
       "@type": "MedicalBusiness",
-      name: "Kenneth Feiner, PsyD — Private Practice",
+      name: "Kenneth Feiner, PsyD | Private Practice",
       telephone: "+1-646-351-1746",
       email: "kfeinerpsyd@example.com",
       priceRange: "$$$",
@@ -104,10 +104,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Kenneth Feiner, PsyD — Manhattan Psychotherapy" },
+      { title: "Kenneth Feiner, PsyD | Manhattan Psychotherapy" },
       { name: "description", content: "Depth-oriented psychotherapy in Manhattan for adolescents, adults, couples, and families. 35+ years of clinical practice." },
       { name: "author", content: "Kenneth Feiner, PsyD" },
-      { property: "og:title", content: "Kenneth Feiner, PsyD — Manhattan Psychotherapy" },
+      { property: "og:title", content: "Kenneth Feiner, PsyD | Manhattan Psychotherapy" },
       { property: "og:description", content: "Thoughtful, depth-oriented psychotherapy in Manhattan." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
